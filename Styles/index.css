@@ -1,0 +1,120 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-family: 'Outfit', sans-serif;
+    color:  hsla(0, 0%, 100%, 0.75);
+}
+
+body{
+    font-size: 15px;
+    background-color:hsl(0, 0%, 95%);
+}
+
+.contenedor-general {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 1rem;
+    flex-direction: column;
+}
+
+.naranja {
+    background-color: hsl(31, 77%, 52%);
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 1rem;
+    align-items: flex-start;
+    font-size: 1rem;
+}
+
+.verdeClaro {
+    background-color: hsl(184, 100%, 22%);
+    width: 100%;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.verdeOscuro{
+    background-color:  hsl(179, 100%, 13%);
+    width: 100%;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.title .lexend-Deca{
+    font-family: 'Lexend Deca';
+    font-weight: 700;
+}
+
+.naranja #learn{
+    background-color: aliceblue;
+    color:  hsl(31, 77%, 52%);
+    padding: 0.5rem;
+    border-radius:10%;
+    font-weight: 700;
+}
+
+.verdeClaro #learnM{
+    background-color: aliceblue;
+    color:  hsl(184, 100%, 22%);
+    padding: 0.5rem;
+    border-radius:10%;
+    font-weight: 700;
+}
+
+.verdeOscuro #learnMore{
+    background-color: aliceblue;
+    color:  hsl(179, 100%, 13%);
+    padding: 0.5rem;
+    border-radius:10%;
+    font-weight: 700;
+}
+
+.attribution p {
+    margin: auto;
+    padding: 0.4rem;
+    color: hsl(179, 100%, 13%);
+}
+
+.attribution{    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: auto;}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (min-width:1440px) {
+
+    .contenedor-general {
+        display: flex;
+        width: 66%;
+        padding: 5rem;
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: center;
+        align-content: center;
+        margin-top: 7%;
+    }
+
+    .attribution{
+        display: flex;
+        width: 60%;
+    }
+}
