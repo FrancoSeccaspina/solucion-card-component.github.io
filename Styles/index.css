@@ -117,4 +117,24 @@ body{
         display: flex;
         width: 60%;
     }
+
+    .verdeClaro {
+        background-color: hsl(184, 100%, 22%);
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .verdeOscuro{
+        background-color:  hsl(179, 100%, 13%);
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
 }
